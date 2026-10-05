@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #e8f5e9;
+    border: 1px solid #b7dfc0;
+    color: #1b5e20;
+    line-height: 1.6;
+}
+
+#verifyButton {
+    background-color: #1f7a4d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#productCode {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+#productCode:focus {
+    outline: none;
+    border-color: #1f7a4d;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
