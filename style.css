@@ -55,3 +55,30 @@ h1 {
     color: #666;
     margin-bottom: 30px;
 }
+
+.status-genuine {
+    display: inline-block;
+    background-color: #1f7a4d;
+    color: #ffffff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.warning-icon {
+    color: #dc3545;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Warning result */
+#result.warning {
+    background-color: #fff8db;
+    border: 1px solid #f4d35e;
+    color: #664d03;
+}
+
+/* Warning heading */
+.warning-heading {
+    color: #b8860b;
+}
